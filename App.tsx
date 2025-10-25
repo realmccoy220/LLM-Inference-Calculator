@@ -1,4 +1,3 @@
-
 import React, { useState, useMemo } from 'react';
 import { QuantizationType } from './types';
 import { QUANTIZATION_FACTORS, OVERHEAD_FACTOR } from './constants';
@@ -23,7 +22,7 @@ const App: React.FC = () => {
         {/* Left Side: Calculator */}
         <div className="bg-white rounded-2xl shadow-2xl p-6 md:p-10 flex flex-col space-y-8">
           <div className="text-center lg:text-left">
-            <h1 className="text-3xl md:text-4xl font-bold text-brand-dark">LLM Serving Calculator</h1>
+            <h1 className="text-3xl md:text-4xl font-bold text-brand-dark">GPU Inference Sizer</h1>
             <p className="text-gray-500 mt-2 text-lg">Estimate required GPU memory instantly.</p>
           </div>
 

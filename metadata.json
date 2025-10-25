@@ -1,5 +1,5 @@
 {
-  "name": "LLM Inference Serving Size Formula",
+  "name": "GPU Inference Sizer",
   "description": "A sleek and intuitive calculator to quickly estimate the required GPU memory for serving Large Language Models based on their parameter size and quantization method.",
   "requestFramePermissions": []
 }
