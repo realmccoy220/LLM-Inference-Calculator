@@ -9,3 +9,5 @@ export const QUANTIZATION_FACTORS: Record<QuantizationType, number> = {
 };
 
 export const OVERHEAD_FACTOR = 1.2;
+
+export const HOURS_IN_MONTH = 730;
